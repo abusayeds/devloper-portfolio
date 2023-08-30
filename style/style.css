@@ -1,0 +1,134 @@
+
+body{
+ background-color: antiquewhite;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.button{
+    padding: 0 30px;
+    
+}
+.button1{
+    margin: 0 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.button2{
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+}
+.other-header{
+    background-image: url("/img/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.other-header img{
+    height: 400px;
+    width: 400px;
+}
+.header-text{
+    width: 50%;
+}
+.button3{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+    align-items: center;
+    
+}
+.contact{
+    padding: 20px;
+    background-color: rgb(192, 156, 156);
+    border-radius: 5px;
+}
+.button3 a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.section-1{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(247, 243, 243);
+    border-radius: 5px;
+}
+.email-section{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    width: 90%;
+    margin: auto;
+
+}
+
+.section-1 h1{
+    font-size: 30px;
+}
+.section-div1{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.text{
+    text-align: center;
+    width: 100%;
+}
+.section2{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    gap: 30px;
+}
+.img-section{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    align-items: center;
+    padding: 60px 0;
+    background-color: aliceblue;
+    grid-gap: 30px;
+    border-radius: 10px;
+ 
+    column-gap: 10px;
+}
+.img-section img{
+    height: 50px;
+    background-color: aliceblue;
+}
+.img-section div{
+    gap: 20px;
+}
+.all-div{
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(231, 238, 245);
+    margin-top: 10px;
+    padding: 10px;
+}
+.all-div img{
+    margin-top: 10px;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.other-text{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0;
+}
